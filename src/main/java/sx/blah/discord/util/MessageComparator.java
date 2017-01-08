@@ -5,17 +5,17 @@ import sx.blah.discord.handle.obj.IMessage;
 import java.util.Comparator;
 
 /**
- * This is a comparator built to compare messages based on their timestamps
+ * This is a comparator built to compare messages based on their timestamps.
  */
 public class MessageComparator implements Comparator<IMessage> {
 
 	/**
-	 * The singleton instance of the reversed message comparator
+	 * The singleton instance of the reversed message comparator.
 	 */
 	public static final MessageComparator REVERSED = new MessageComparator(true);
 
 	/**
-	 * The singleton instance of the default message comparator
+	 * The singleton instance of the default message comparator.
 	 */
 	public static final MessageComparator DEFAULT = new MessageComparator(false);
 
